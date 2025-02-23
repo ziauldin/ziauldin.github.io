@@ -3,38 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zia Ul Din | Data Analyst</title>
+    <title>Zia Ul Din's Data Analyst Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Zia Ul Din</h1>
-        <p>Data Analyst | Python | SQL | Power BI</p>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>As a data-driven problem solver, I specialize in transforming complex datasets into actionable insights using Python, SQL, and Power BI. I am passionate about bridging data analytics and AI-driven automation to drive innovation.</p>
-    </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Data Analysis & Visualization</li>
-            <li>SQL & Database Management</li>
-            <li>Python (Pandas, NumPy, Matplotlib)</li>
-            <li>Predictive Analytics & AI Integration</li>
-            <li>Power BI & Business Intelligence</li>
+<header>
+    <ul class="nav nav-pills">
+        <li class="pull-left"> <a href="#top"> Zia Ul Din </a></li>
+        <li class="pull-right"> <a href="#contact"> Contact Me </a></li>
+        <li class="pull-right"> <a href="#projects"> Projects </a></li>
+        <li class="pull-right"> <a href="#resume"> Resume </a></li>
+    </ul>
+</header>
+
+<div class="pageOne text-center">
+    <div class="block1" id="top">
+        <h1> Zia Ul Din </h1>
+        <h4> Transforming Data into Actionable Insights </h4>
+    </div>
+    <div class="btnlist text-center">
+        <a class="btn btn-default" href="https://www.linkedin.com/in/zia-ul-din" target="_blank">
+            <i class="fa fa-linkedin-square fa-lg" id="linkedinIcon"></i> LinkedIn
+        </a>
+        <a class="btn btn-default" href="https://github.com/ZiaUlDin" target="_blank">
+            <i class="fa fa-github fa-lg" id="githubIcon"></i> GitHub
+        </a>
+    </div>
+</div>
+
+<!-- About Me Section -->
+<div class="pageTwo" style="background: rgba(255,255,255,0.5)">
+    <div class="row text-center">
+        <div class="col-md-4 text-center">
+            <div class="MyImage"></div>
+        </div>
+        <div class="col-md-4 text-center">
+            <h1 id="aboutme"> About Me </h1>
+            <p> I am a data analyst specializing in Python, SQL, and Power BI. My expertise includes predictive analytics, AI integration, and business intelligence. I recently developed an AI-powered voice chatbot using Groq’s Distil-Whisper and Llama 3, improving real-time speech-to-text transcription and AI-driven automation. </p>
+        </div>
+        <div class="col-md-4 text-center">
+            <h1 id="contact"> Contact Me </h1>
+            <p><i class="fa fa-envelope"></i> ziadin.544@gmail.com</p>
+            <p><i class="fa fa-whatsapp"></i> +92 311 7263544</p>
+        </div>
+    </div>
+</div>
+
+<!-- Resume Section -->
+<div class="pageThree" id="resume" style="background: rgba(255,255,255,0.1)">
+    <div class="block2">
+        <h1> Resume </h1>
+        <section>
+            <div>
+                <h3>Work Experience</h3>
+                <ul>
+                    <li>
+                        <h4>Data Analyst (Freelance) | Upwork <span class="label label-work1">March 2024 – Present</span></h4>
+                        <p>Specialized in data analysis, visualization, and predictive modeling for diverse industries.</p>
+                    </li>
+                    <li>
+                        <h4>Data Analyst Intern | The Spark Foundation <span class="label label-work1">July 2024 – Aug 2024</span></h4>
+                        <p>Developed interactive dashboards and conducted data validation for multiple projects.</p>
+                    </li>
+                </ul>
+
+                <h3>Education</h3>
+                <ul>
+                    <li>
+                        <h4>International Islamic University Islamabad (IIUI) <span class="label label-edu2">2021 – 2025</span></h4>
+                        <p>BS in Business Analytics | CGPA: 3.68/4.00</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</div>
+
+<!-- Projects Section -->
+<div class="pageFour text-center" id="projects" style="background: rgba(255,255,255,0.25)">
+    <h1> Projects </h1>
+    <h4 class="ProjectsCaption">A Collection of My Featured Data Analytics Projects</h4>
+    <div class="xop-section">
+        <ul class="xop-grid">
+            <li>
+                <div class="xop-box xop-img-1">
+                    <a href="#">
+                        <div class="xop-info">
+                            <h3>AI-Powered Voice Chatbot</h3>
+                            <p>Developed a chatbot using Groq’s Distil-Whisper and Llama 3 for real-time speech-to-text transcription.</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="xop-box xop-img-2">
+                    <a href="#">
+                        <div class="xop-info">
+                            <h3>Operational Efficiency at Hayat Pharma</h3>
+                            <p>Analyzed sales fluctuations and implemented cost optimization strategies.</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="xop-box xop-img-3">
+                    <a href="#">
+                        <div class="xop-info">
+                            <h3>Crop Export Forecasting</h3>
+                            <p>Designed an MLP model to forecast crop export values based on historical data.</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="xop-box xop-img-4">
+                    <a href="#">
+                        <div class="xop-info">
+                            <h3>Big Data Visualization for Government Officials</h3>
+                            <p>Developed an interactive Power BI dashboard for decision-making support.</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
         </ul>
-    </section>
+    </div>
+</div>
 
-    <footer>
-        <p>© 2025 Zia Ul Din | <a href="contact.html">Contact Me</a></p>
-    </footer>
+<!-- Footer -->
+<div id="footer">
+    <ul class="nav nav-pillsfooter">
+        <li class="pull-right"> <a href="#contact"> Contact Me </a></li>
+        <li class="pull-right"> <a href="#projects"> Projects </a></li>
+        <li class="pull-right"> <a href="#resume"> Resume </a></li>
+        <li class="pull-left"> <a href="#"> © 2025 Zia Ul Din. All Rights Reserved. </a></li>
+    </ul>
+</div>
+
 </body>
 </html>
